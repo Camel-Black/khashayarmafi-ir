@@ -48,7 +48,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 # Normalize
 --------------------------------------------------------------*/
 html {
-	font-family: sans-serif;
+	font-family: dana-fanum;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 }
@@ -266,7 +266,7 @@ select,
 optgroup,
 textarea {
 	color: #1c1b1b;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'dana-fanum', sans-serif;
 	font-size: 20px;
 	font-weight: 300;
 	line-height: 1.8;
@@ -5748,3 +5748,213 @@ RESPONSIVE STYLESHEET
 .rtl{
 	direction: rtl !important;
 }
+@font-face {
+    font-family: 'dana';
+    src: url('../font/dana-bold.woff2') format('woff2'),
+        url('../font/dana-bold.woff') format('woff'),
+        url('../font/dana-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'dana-fanum';
+    src: url('../font/dana-fanum-black.woff2') format('woff2'),
+        url('../font/dana-fanum-black.woff') format('woff'),
+        url('../font/dana-fanum-black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'dana-fanum';
+    src: url('../font/dana-fanum-blackitalic.woff2') format('woff2'),
+        url('../font/dana-fanum-blackitalic.woff') format('woff'),
+        url('../font/dana-fanum-blackitalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'dana-fanum';
+    src: url('../font/dana-fanum-bold.woff2') format('woff2'),
+        url('../font/dana-fanum-bold.woff') format('woff'),
+        url('../font/dana-fanum-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'dana-fanum';
+    src: url('../font/dana-fanum-demibold.woff2') format('woff2'),
+        url('../font/dana-fanum-demibold.woff') format('woff'),
+        url('../font/dana-fanum-demibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'dana-fanum';
+    src: url('../font/dana-fanum-bolditalic.woff2') format('woff2'),
+        url('../font/dana-fanum-bolditalic.woff') format('woff'),
+        url('../font/dana-fanum-bolditalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'dana-fanum';
+    src: url('../font/dana-fanum-demibolditalic.woff2') format('woff2'),
+        url('../font/dana-fanum-demibolditalic.woff') format('woff'),
+        url('../font/dana-fanum-demibolditalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'dana-fanum';
+    src: url('../font/dana-fanum-extralight.woff2') format('woff2'),
+        url('../font/dana-fanum-extralight.woff') format('woff'),
+        url('../font/dana-fanum-extralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'dana-fanum';
+    src: url('../font/dana-fanum-extrabolditalic.woff2') format('woff2'),
+        url('../font/dana-fanum-extrabolditalic.woff') format('woff'),
+        url('../font/dana-fanum-extrabolditalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'dana-fanum';
+    src: url('../font/dana-fanum-extrabold.woff2') format('woff2'),
+        url('../font/dana-fanum-extrabold.woff') format('woff'),
+        url('../font/dana-fanum-extrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'dana-fanum';
+    src: url('../font/dana-fanum-extralightitalic.woff2') format('woff2'),
+        url('../font/dana-fanum-extralightitalic.woff') format('woff'),
+        url('../font/dana-fanum-extralightitalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'dana-fanum';
+    src: url('../font/dana-fanum-light.woff2') format('woff2'),
+        url('../font/dana-fanum-light.woff') format('woff'),
+        url('../font/dana-fanum-light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'dana-fanum';
+    src: url('../font/dana-fanum-lightitalic.woff2') format('woff2'),
+        url('../font/dana-fanum-lightitalic.woff') format('woff'),
+        url('../font/dana-fanum-lightitalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'dana-fanum';
+    src: url('../font/dana-fanum-medium.woff2') format('woff2'),
+        url('../font/dana-fanum-medium.woff') format('woff'),
+        url('../font/dana-fanum-medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'dana-fanum';
+    src: url('../font/dana-fanum-regular.woff2') format('woff2'),
+        url('../font/dana-fanum-regular.woff') format('woff'),
+        url('../font/dana-fanum-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'dana-fanum';
+    src: url('../font/dana-fanum-mediumitalic.woff2') format('woff2'),
+        url('../font/dana-fanum-mediumitalic.woff') format('woff'),
+        url('../font/dana-fanum-mediumitalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'dana-fanum';
+    src: url('../font/dana-fanum-regularitalic.woff2') format('woff2'),
+        url('../font/dana-fanum-regularitalic.woff') format('woff'),
+        url('../font/dana-fanum-regularitalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'dana-fanum';
+    src: url('../font/dana-fanum-thin.woff2') format('woff2'),
+        url('../font/dana-fanum-thin.woff') format('woff'),
+        url('../font/dana-fanum-thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'dana-fanum';
+    src: url('../font/dana-fanum-ultrabold.woff2') format('woff2'),
+        url('../font/dana-fanum-ultrabold.woff') format('woff'),
+        url('../font/dana-fanum-ultrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'dana-fanum';
+    src: url('../font/dana-fanum-thinitalic.woff2') format('woff2'),
+        url('../font/dana-fanum-thinitalic.woff') format('woff'),
+        url('../font/dana-fanum-thinitalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'dana-fanum';
+    src: url('../font/dana-fanum-ultrabolditalic.woff2') format('woff2'),
+        url('../font/dana-fanum-ultrabolditalic.woff') format('woff'),
+        url('../font/dana-fanum-ultrabolditalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
