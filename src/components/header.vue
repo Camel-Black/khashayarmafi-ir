@@ -3,10 +3,8 @@
       <div class="tc-wrapper">
         <div class="site-branding logo-text" itemscope itemtype="https://schema.org/Organization">
           <div class="site-logo">
-
           </div>
           <div class="site-title-wrap">
-
           </div>
         </div>
         <div class="header-r">
@@ -42,31 +40,25 @@
                   id="menu-item-123"
                   class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5 current_page_item menu-item-123 rtl"
                 >
-                  <a href="https://rarathemesdemo.com/perfect-portfolio/" style="direction:rtl" aria-current="page">شسیش</a>
+                  <a to="/" style="direction:rtl" aria-current="page">خانه</a>
                 </li>
                 <li
                   id="menu-item-124"
                   class="menu-item menu-item-type-post_type menu-item-object-page menu-item-124"
                 >
-                  <a href="https://rarathemesdemo.com/perfect-portfolio/im-francisco-adams/">About</a>
+                  <a href="/about">درباره من</a>
                 </li>
                 <li
                   id="menu-item-126"
                   class="menu-item menu-item-type-post_type menu-item-object-page menu-item-126"
                 >
-                  <a href="https://rarathemesdemo.com/perfect-portfolio/blog/">Blog</a>
+                  <a href="/blog">بلاگ</a>
                 </li>
                 <li
                   id="menu-item-514"
                   class="menu-item menu-item-type-post_type menu-item-object-page menu-item-514"
                 >
-                  <a href="https://rarathemesdemo.com/perfect-portfolio/portfolios/">Portfolios</a>
-                </li>
-                <li
-                  id="menu-item-543"
-                  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-543"
-                >
-
+                  <a href="/contact">تماس با من</a>
                 </li>
               </ul>
             </nav>
@@ -80,7 +72,7 @@
               >
                 <div>
                   <label class="screen-reader-text" for="s">Search for:</label>
-                  <input type="text" class="search-field" placeholder="Search..." value name="s" />
+                  <input type="text" class="search-field rtl" placeholder="جستو جو ..." value name="s" />
                   <input type="submit" id="searchsubmit" class="search-submit" value="Search" />
                 </div>
               </form>
