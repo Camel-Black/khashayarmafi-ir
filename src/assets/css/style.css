@@ -1706,7 +1706,6 @@ body.menu-toggled {
 	right: 0;
 	width: 25%;
 	padding: 50px;
-	text-align: left;
 	height: 100%;
 	z-index: 99999;
 	visibility: hidden;
@@ -1722,6 +1721,9 @@ body.menu-toggled {
 	-webkit-transform: translateX(0);
 	-moz-transform: translateX(0);
 	transform: translateX(0);
+}
+.menu-wrap{
+	text-align: right;
 }
 .menu-wrap nav.main-navigation {
 	margin-bottom: 40px;
@@ -1739,7 +1741,7 @@ body:not(.admin-bar) .menu-wrap nav.main-navigation {
 	/*position: relative;*/
 	position: absolute;
 	top: 5px;
-	right: 20px;
+	left: 20px;
 	border: none;
 	float: right;
 }
