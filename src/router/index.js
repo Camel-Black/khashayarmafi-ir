@@ -5,6 +5,9 @@ import blog from '../views/blog.vue'
 import resume from '../views/resume.vue'
 import search from '../views/search.vue'
 import contact from '../views/contact.vue'
+import post from '../views/post.vue'
+import NOTFOUND from '../views/NOTFOUND.vue'
+
 
 
 Vue.use(VueRouter)
@@ -14,6 +17,16 @@ const routes = [
     path: '/',
     name: 'Index',
     component: index
+  },
+  {
+    path: '*',
+    name: '404',
+    component: NOTFOUND
+  },
+  {
+    path: '/blog/:post',
+    name: 'post',
+    component: post
   },
   // {
   //   path: '/resume',
