@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import index from '../views/index.vue'
 import blog from '../views/blog.vue'
-import about from '../views/about.vue'
+import resume from '../views/resume.vue'
 import search from '../views/search.vue'
 import contact from '../views/contact.vue'
 
@@ -16,12 +16,12 @@ const routes = [
     component: index
   },
   // {
-  //   path: '/about',
-  //   name: 'About',
+  //   path: '/resume',
+  //   name: 'resume',
   //   // route level code-splitting
-  //   // this generates a separate chunk (about.[hash].js) for this route
+  //   // this generates a separate chunk (resume.[hash].js) for this route
   //   // which is lazy-loaded when the route is visited.
-  //   component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+  //   component: () => import(/* webpackChunkName: "resume" */ '../views/resume.vue')
   // },
   {
     path: '/blog',
@@ -29,9 +29,9 @@ const routes = [
     component: blog
   },
   {
-    path: '/about',
-    name: 'about',
-    component: about
+    path: '/resume',
+    name: 'resume',
+    component: resume
   },
   {
     path: '/search',
