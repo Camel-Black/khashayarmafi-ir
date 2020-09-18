@@ -1,5 +1,5 @@
 <template>
-  <div class="page">
+  <div class="site" id="page">
     <Header></Header>
     <div id="content" class="site-content">
       <div class="resume-wrap">
