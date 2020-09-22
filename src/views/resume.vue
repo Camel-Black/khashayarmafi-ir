@@ -57,7 +57,6 @@
         </div>
       </div>
     </section>
-
     <Footer></Footer>
   </div>
 </template>
@@ -75,4 +74,6 @@ export default {
 </script>
 
 <style>
+@import url("../assets/css/style.css");
+
 </style>

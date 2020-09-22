@@ -447,10 +447,10 @@ table {
 table tr th {
 	font-weight: 600;
 	color: #fff;
-	background: #05d584;
+	background: #77818A;
 	text-transform: uppercase;
 	padding: 10px;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 	border-right: 1px solid rgba(255, 255, 255, 0.2);
 }
 
@@ -486,7 +486,7 @@ input[type="submit"] {
 	font-weight: 600;
 	padding: 18px 45px;
 	line-height: 20px;
-	letter-spacing: 5px;
+	/* letter-spacing: 5px; */
 	transition: all ease 0.3s;
 	-webkit-transition: all ease 0.3s;
 	-moz-transition: all ease 0.3s;
@@ -496,7 +496,7 @@ button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-	background: #05d584;
+	background: #77818A;
 	color: #fff;
 }
 
@@ -577,7 +577,7 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: #05d584;
+	color: #77818A;
 	text-decoration: none;
 	transition: all ease 0.3s;
 	-webkit-transition: all ease 0.3s;
@@ -604,7 +604,7 @@ a:active {
 }
 
 a:hover {
-	color: #05d584;
+	color: #77818A;
 }
 
 /*--------------------------------------------------------------
@@ -998,16 +998,18 @@ body.custom-background #page {
 }
 
 .widget a:hover {
-	color: #05d584;
+	color: #77818A;
 }
 
 blockquote {
 	margin: 60px 0;
-	border-left: 3px solid #f0f0f0;
+	border-right: 3px solid #f0f0f0;
 	padding: 0 50px;
 	font-style: italic;
 	font-weight: 500;
-	text-align: left;
+	text-align: right;
+	direction: rtl;
+	
 }
 
 .single-post:not(.single-centered) blockquote {
@@ -1024,7 +1026,7 @@ q {
 	display: inline-block;
 	padding-left: 40px;
 	font-style: italic;
-	letter-spacing: 0.8px;
+	/* letter-spacing: 0.8px; */
 	margin-bottom: 30px;
 }
 
@@ -1063,7 +1065,7 @@ span.highlight {
 	font-size: 16px;
 	font-weight: 600;
 	text-transform: uppercase;
-	letter-spacing: 3px;
+	/* //: 3px; */
 	color: #676767;
 	display: inline-block;
 	padding: 18px 40px;
@@ -1073,7 +1075,7 @@ span.highlight {
 }
 
 .btn-readmore:hover {
-	background: #05d584;
+	background: #77818A;
 	color: #fff !important;
 }
 
@@ -1121,7 +1123,8 @@ section[class*="-section"] .widget-title:after,
 }
 
 .page-header {
-	text-align: center;
+	text-align: right;
+	direction: rtl;
 	margin-top: 30px;
 }
 
@@ -1170,7 +1173,7 @@ BREADCRUMB
 ========================*/
 .breadcrumb {
 	font-weight: 400;
-	letter-spacing: 0.8px;
+	/* //: 0.8px; */
 }
 
 .breadcrumb a:hover {
@@ -1273,7 +1276,7 @@ COMMENTS AREA
 	font-size: 14px;
 	margin-top: 10px;
 	margin-bottom: 0;
-	color: #05d584;
+	color: #77818A;
 }
 
 .comment-body .reply {
@@ -1292,7 +1295,7 @@ COMMENTS AREA
 }
 
 .comment-body .reply .comment-reply-link:hover {
-	color: #05d584;
+	color: #77818A;
 }
 
 .comment-body .reply .comment-reply-link:before {
@@ -1349,7 +1352,7 @@ COMMENTS AREA
 }
 
 .comment-respond .comment-reply-title a:hover {
-	background: #05d584;
+	background: #77818A;
 }
 
 .comment-form p.comment-notes {
@@ -1418,7 +1421,7 @@ BREADCRUMB
 ========================*/
 .breadcrumb {
 	font-weight: 400;
-	letter-spacing: 0.8px;
+	/* //: 0.8px; */
 }
 
 .has-pageHeader-bg .page-header .breadcrumb,
@@ -1492,9 +1495,9 @@ nav.pagination:after {
 
 a.page-numbers:hover,
 span.page-numbers.current {
-	border-color: #05d584;
+	border-color: #77818A;
 	color: #fff;
-	background: #05d584;
+	background: #77818A;
 }
 
 .nav-links::before,
@@ -1516,7 +1519,7 @@ span.page-numbers.current {
 .nav-links div[class*="nav-"] a {
 	font-size: 14px;
 	font-weight: 500;
-	letter-spacing: 0.8px;
+	/* //: 0.8px; */
 	color: #1c1b1b;
 	position: relative;
 	padding-left: 20px;
@@ -1586,7 +1589,7 @@ BACK TO TOP
 }
 
 .back-to-top:hover {
-	background: #05d584;
+	background: #77818A;
 	color: #fff;
 }
 
@@ -1788,7 +1791,7 @@ form.searchform:after {
 	background: none;
 	font-size: 16px;
 	font-weight: 400;
-	letter-spacing: 0.6px;
+	/* //: 0.6px; */
 }
 
 .searchform input[type="submit"] {
@@ -1984,7 +1987,7 @@ ul.menu:not(.nav-menu) {
 .main-navigation .nav-menu li:hover>a,
 .main-navigation .nav-menu li.current-menu-item>a,
 .main-navigation .nav-menu li.current_page_item>a {
-	color: #05d584;
+	color: #77818A;
 }
 
 .main-navigation .nav-menu li ul {
@@ -2315,7 +2318,7 @@ section.gallery-section {
 .filter-button-group button {
 	text-transform: capitalize;
 	font-weight: 400;
-	letter-spacing: 0;
+	/* //: 0; */
 	font-size: 16px;
 	margin-right: 15px;
 	margin-bottom: 15px;
@@ -2440,7 +2443,7 @@ section.gallery-section {
 }
 
 .text-holder span.sub-title a:hover {
-	color: #05d584;
+	color: #77818A;
 }
 
 .text-holder span.sub-title a:last-child {
@@ -2458,7 +2461,7 @@ section.gallery-section {
 }
 
 .text-holder .gal-title a:hover {
-	color: #05d584;
+	color: #77818A;
 }
 
 .text-holder .gal-desc {
@@ -2475,7 +2478,7 @@ section.gallery-section {
 	font-size: 16px;
 	font-weight: 600;
 	text-transform: uppercase;
-	letter-spacing: 3px;
+	/* //: 3px; */
 	background: #fff;
 	padding: 10px 30px;
 	border-radius: 40px;
@@ -2483,7 +2486,7 @@ section.gallery-section {
 }
 
 .text-holder a.gal-readmore:hover {
-	background: #05d584;
+	background: #77818A;
 	color: #fff;
 }
 
@@ -2615,7 +2618,7 @@ section.gallery-section.style3 .tc-wrapper,
 }
 
 .owl-theme .owl-nav [class*='owl-']:hover {
-	background: #05d584;
+	background: #77818A;
 }
 
 /*===========================
@@ -2867,7 +2870,7 @@ CTA SECTION
 }
 
 .widget_raratheme_companion_cta_widget>div {
-	background: #05d584;
+	background: #77818A;
 	padding: 80px 40px;
 	display: flex;
 	flex: 1;
@@ -2965,7 +2968,6 @@ section[class*="-section"] .widget_raratheme_companion_cta_widget .raratheme-cta
 	color: #1c1b1b;
 	font-size: 16px;
 	text-transform: uppercase;
-	letter-spacing: 3px;
 	font-weight: 600;
 	padding: 18px 40px;
 	border-radius: 40px;
@@ -2980,7 +2982,7 @@ section[class*="-section"] .widget_raratheme_companion_cta_widget .raratheme-cta
 }
 
 .button-wrap .btn-cta:hover {
-	background: #1c1b1b;
+	background: #676767;
 	color: #fff;
 }
 
@@ -3044,7 +3046,7 @@ section.article-section {
 	padding: 20px 0;
 	color: #676767;
 	font-weight: 400;
-	letter-spacing: 0;
+	/* letter-spacing: 0; */
 	font-size: 20px;
 	text-transform: capitalize;
 }
@@ -3055,7 +3057,7 @@ section.article-section {
 }
 
 .left-content .article-section a.btn-readmore:hover {
-	color: #05d584;
+	color: #77818A;
 }
 
 .article-holder:before,
@@ -3105,7 +3107,7 @@ section.article-section {
 }
 
 .entry-meta a:hover {
-	color: #05d584;
+	color: #77818A;
 }
 
 .article-section a.btn-readmore {
@@ -3151,7 +3153,7 @@ RARATHEME CTA WIDGET
 .site-footer .button-wrap .btn-cta,
 #secondary .button-wrap .btn-cta {
 	font-size: 14px;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 	padding: 15px 30px;
 }
 
@@ -3319,7 +3321,7 @@ RARATHEME TEAM WIDGET
 }
 
 .widget_rrtc_description_widget .social-profile li a:hover {
-	background: #05d584;
+	background: #77818A;
 	color: #fff;
 }
 
@@ -3678,7 +3680,7 @@ ul.social-networks {
 }
 
 .widget_rtc_social_links ul li a:hover {
-	background: #05d584;
+	background: #77818A;
 	color: #fff;
 }
 
@@ -3738,7 +3740,7 @@ FOOTER SECTION
 }
 
 .bottom-footer a:hover {
-	color: #05d584;
+	color: #77818A;
 }
 
 .bottom-footer .copyright {
@@ -3776,7 +3778,7 @@ FOOTER SECTION
 
 .bottom-footer .foot-social a:hover {
 	background: none;
-	color: #05d584;
+	color: #77818A;
 }
 
 /*=======================
@@ -3996,7 +3998,7 @@ header.entry-header .entry-title span:before {
 }
 
 .slider .owl-theme .owl-nav [class*='owl-']:hover {
-	background: #05d584;
+	background: #77818A;
 }
 
 .no-slider .test-wrap {
@@ -4205,7 +4207,7 @@ ul.slider.owl-theme .owl-nav .owl-next {
 }
 
 .single .page-header {
-	text-align: left;
+	text-align: right !important;
 	margin-top: 0;
 }
 
@@ -4382,7 +4384,7 @@ RELATED POST SECTION
 
 .block-title a:hover,
 .entry-title a:hover {
-	color: #05d584;
+	color: #77818A;
 }
 
 .related .related-post-title,
@@ -4529,7 +4531,7 @@ span.byline a.fn {
 }
 
 .entry-footer .edit-link a:hover {
-	background: #05d584;
+	background: #77818A;
 }
 
 .single-post.full-width:not(.single-centered) .entry-footer .article-share {
@@ -4589,7 +4591,7 @@ span.byline a.fn {
 }
 
 .tags a:hover {
-	background: #05d584;
+	background: #77818A;
 	color: #fff;
 }
 
@@ -4654,7 +4656,7 @@ span.byline a.fn {
 }
 
 .single-post .about-author .author-social a:hover {
-	background: #05d584;
+	background: #77818A;
 }
 
 body.page:not(.home) header.entry-header {
@@ -4668,7 +4670,7 @@ body.page:not(.home) header.entry-header .entry-title {
 
 .breadcrumb {
 	font-weight: 400;
-	letter-spacing: 0.8px;
+	/* letter-spacing: 0.8px; */
 	font-size: 16px;
 	margin-bottom: 30px;
 	color: #676767;
@@ -4719,7 +4721,7 @@ body.page:not(.home) header.entry-header .entry-title {
 }
 
 .single-post .entry-footer .cat-links a:hover {
-	color: #05d584;
+	color: #77818A;
 	text-decoration: underline;
 }
 
@@ -4974,7 +4976,7 @@ WIDGET AUTHOR
 }
 
 .widget_author .author-social a:hover {
-	background: #05d584;
+	background: #77818A;
 }
 
 /*===========================
@@ -4993,7 +4995,7 @@ WIDGET TAG CLOUD
 }
 
 .widget_tag_cloud .tagcloud a:hover {
-	background: #05d584;
+	background: #77818A;
 	color: #fff;
 }
 
@@ -5276,7 +5278,7 @@ ARCHIVE CATEGORY AND AUTHOR PAGE
 }
 
 .author .page-header .author-info-wrap .author-social a:hover {
-	background: #05d584;
+	background: #77818A;
 }
 
 
@@ -5829,12 +5831,7 @@ RESPONSIVE STYLESHEET
 		max-width: 49%;
 	}
 
-	button,
-	input[type="button"],
-	input[type="reset"],
-	input[type="submit"] {
-		letter-spacing: 1px;
-	}
+
 
 	/*===========================
 	BACK TO TOP
@@ -6719,4 +6716,46 @@ RESPONSIVE STYLESHEET
 
 .cta-section.ease {
 	margin-bottom: 0 !important;
+}
+.r.about-tesimonial {
+    max-width: 970px;
+    margin: 170px auto 80px auto;
+    background: #f8f8f8;
+    text-align: center;
+    padding: 125px 60px 80px 60px;
+    position: relative;
+}
+.r.about-tesimonial .tesimonial-img {
+    width: 170px;
+    height: 170px;
+    overflow: hidden;
+    border-radius: 100%;
+    position: absolute;
+    top: -85px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+
+.r.about-tesimonial {
+    max-width: 970px;
+    margin: 170px auto 80px auto;
+    background: #f8f8f8;
+    text-align: center;
+    padding: 125px 60px 80px 60px;
+    position: relative;
+}
+.r.about-tesimonial .tesimonial-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.page-content{
+	text-align: right;
+	direction: rtl;
+}
+.sub-title div{
+	margin-left: 15px;
+	display: inline;
 }

@@ -16,44 +16,38 @@
                   itemprop="image"
                   data-ll-status="loaded"
                 />
-                <noscript>
-                  <img
-                    width="1255"
-                    height="700"
-                    src="https://rarathemesdemo.com/perfect-portfolio-pro/wp-content/uploads/sites/57/2018/05/Untitled-2-1255x700.jpg"
-                    class="attachment-perfect-portfolio-fullwidth size-perfect-portfolio-fullwidth wp-post-image"
-                    alt
-                    itemprop="image"
-                  />
-                </noscript>
               </figure>
               <div class="content-wrap-box">
                 <header class="page-header">
-                  <span class="sub-title">
-                    <a
-                      href="https://rarathemesdemo.com/perfect-portfolio-pro/portfolio-category/photography/"
-                    >
-                      <span>Photography</span>
-                    </a>
-                    <a
-                      href="https://rarathemesdemo.com/perfect-portfolio-pro/portfolio-category/web-design/"
-                    >
-                      <span>Web Design</span>
-                    </a>
-                  </span>
+                  <div class="sub-title">
+                    <div>
+                      <a
+                        href="https://rarathemesdemo.com/perfect-portfolio-pro/portfolio-category/photography/"
+                      >
+                        <span>عکاسی</span>
+                      </a>
+                    </div>
+                    <div>
+                      <a
+                        href="https://rarathemesdemo.com/perfect-portfolio-pro/portfolio-category/web-design/"
+                      >
+                        <span>وب دیزاین</span>
+                      </a>
+                    </div>
+                  </div>
                   <h1 class="page-title">
-                    <span>Luke in the house of jelly radio fenzes.</span>
+                    <span>لوک در شاشگاه های ایرانی.</span>
                   </h1>
                 </header>
                 <div class="page-content">
-                  <p>Over the last ten odd years I’ve had the pleasure of working with some great companies, working side by side to design and develop new apps and improve upon existing products. I mainly focus on designing clear, understandable interfaces and creating a goal oriented user experience through iteration and prototyping. I know… it sounds very marketingy. At the end of the day, I just love collaborating with passionate startups and companies and make kick-ass apps.</p>
+                  <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و آینده</p>
                   <blockquote>
-                    <p>“From exciting startups to global brands, companies are reaching out to digital agencies, responding to the new possibilities available. However, the industry is fast becoming overcrowded, heaving with agencies”</p>
+                    <p>“لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و آینده”</p>
                   </blockquote>
-                  <p>Deserts are formed by weathering processes as large variations in temperature between day and night put strains on the rocks which consequently break in pieces. Although rain seldom occurs in deserts, there are occasional downpours that can result in flash floods. Rain falling on hot rocks can cause them to shatter and the resulting fragments and rubble strewn over the desert floor is further eroded by the wind.</p>
+                  <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و آینده</p>
                 </div>
               </div>
-              <div class="about-tesimonial">
+              <div class="r about-tesimonial">
                 <figure class="tesimonial-img">
                   <img
                     width="150"
@@ -79,10 +73,10 @@
                 </figure>
                 <div class="tesimonial-info-wrap">
                   <div class="tesimonial-info">
-                    <p>Deserts are formed by weathering processes as large variations in temperature between day and night put strains on the rocks which consequently break in pieces. Although rain seldom occurs in deserts, there are occasional downpours that can result in flash floods.</p>
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و آینده</p>
                   </div>
-                  <h3 class="name">James Leon</h3>
-                  <p class="company">Freeback Design Studio</p>
+                  <h3 class="name">خشایار مافی</h3>
+                  <p class="company">طراح وبسایت و کامپیوتر ساینتیست</p>
                 </div>
               </div>
             </div>
@@ -105,18 +99,6 @@
                         srcset="https://rarathemesdemo.com/perfect-portfolio-pro/wp-content/uploads/sites/57/2018/05/disturbed-1301200_1920-1.jpg 1920w, https://rarathemesdemo.com/perfect-portfolio-pro/wp-content/uploads/sites/57/2018/05/disturbed-1301200_1920-1-80x60.jpg 80w, https://rarathemesdemo.com/perfect-portfolio-pro/wp-content/uploads/sites/57/2018/05/disturbed-1301200_1920-1-600x450.jpg 600w, https://rarathemesdemo.com/perfect-portfolio-pro/wp-content/uploads/sites/57/2018/05/disturbed-1301200_1920-1-300x225.jpg 300w, https://rarathemesdemo.com/perfect-portfolio-pro/wp-content/uploads/sites/57/2018/05/disturbed-1301200_1920-1-768x576.jpg 768w, https://rarathemesdemo.com/perfect-portfolio-pro/wp-content/uploads/sites/57/2018/05/disturbed-1301200_1920-1-1024x768.jpg 1024w"
                         data-ll-status="loaded"
                       />
-                      <noscript>
-                        <img
-                          width="336"
-                          height="252"
-                          src="https://rarathemesdemo.com/perfect-portfolio-pro/wp-content/uploads/sites/57/2018/05/disturbed-1301200_1920-1.jpg"
-                          class="attachment-perfect-portfolio-article size-perfect-portfolio-article wp-post-image"
-                          alt
-                          itemprop="image"
-                          srcset="https://rarathemesdemo.com/perfect-portfolio-pro/wp-content/uploads/sites/57/2018/05/disturbed-1301200_1920-1.jpg 1920w, https://rarathemesdemo.com/perfect-portfolio-pro/wp-content/uploads/sites/57/2018/05/disturbed-1301200_1920-1-80x60.jpg 80w, https://rarathemesdemo.com/perfect-portfolio-pro/wp-content/uploads/sites/57/2018/05/disturbed-1301200_1920-1-600x450.jpg 600w, https://rarathemesdemo.com/perfect-portfolio-pro/wp-content/uploads/sites/57/2018/05/disturbed-1301200_1920-1-300x225.jpg 300w, https://rarathemesdemo.com/perfect-portfolio-pro/wp-content/uploads/sites/57/2018/05/disturbed-1301200_1920-1-768x576.jpg 768w, https://rarathemesdemo.com/perfect-portfolio-pro/wp-content/uploads/sites/57/2018/05/disturbed-1301200_1920-1-1024x768.jpg 1024w"
-                          sizes="(max-width: 336px) 100vw, 336px"
-                        />
-                      </noscript>
                     </a>
                   </figure>
                   <h3 class="block-title">
@@ -151,18 +133,6 @@
                         srcset="https://rarathemesdemo.com/perfect-portfolio-pro/wp-content/uploads/sites/57/2018/05/poster-mockup-2853847_1920-1.jpg 1920w, https://rarathemesdemo.com/perfect-portfolio-pro/wp-content/uploads/sites/57/2018/05/poster-mockup-2853847_1920-1-90x60.jpg 90w, https://rarathemesdemo.com/perfect-portfolio-pro/wp-content/uploads/sites/57/2018/05/poster-mockup-2853847_1920-1-600x400.jpg 600w, https://rarathemesdemo.com/perfect-portfolio-pro/wp-content/uploads/sites/57/2018/05/poster-mockup-2853847_1920-1-300x200.jpg 300w, https://rarathemesdemo.com/perfect-portfolio-pro/wp-content/uploads/sites/57/2018/05/poster-mockup-2853847_1920-1-768x512.jpg 768w, https://rarathemesdemo.com/perfect-portfolio-pro/wp-content/uploads/sites/57/2018/05/poster-mockup-2853847_1920-1-1024x683.jpg 1024w"
                         data-ll-status="loaded"
                       />
-                      <noscript>
-                        <img
-                          width="367"
-                          height="245"
-                          src="https://rarathemesdemo.com/perfect-portfolio-pro/wp-content/uploads/sites/57/2018/05/poster-mockup-2853847_1920-1.jpg"
-                          class="attachment-perfect-portfolio-article size-perfect-portfolio-article wp-post-image"
-                          alt
-                          itemprop="image"
-                          srcset="https://rarathemesdemo.com/perfect-portfolio-pro/wp-content/uploads/sites/57/2018/05/poster-mockup-2853847_1920-1.jpg 1920w, https://rarathemesdemo.com/perfect-portfolio-pro/wp-content/uploads/sites/57/2018/05/poster-mockup-2853847_1920-1-90x60.jpg 90w, https://rarathemesdemo.com/perfect-portfolio-pro/wp-content/uploads/sites/57/2018/05/poster-mockup-2853847_1920-1-600x400.jpg 600w, https://rarathemesdemo.com/perfect-portfolio-pro/wp-content/uploads/sites/57/2018/05/poster-mockup-2853847_1920-1-300x200.jpg 300w, https://rarathemesdemo.com/perfect-portfolio-pro/wp-content/uploads/sites/57/2018/05/poster-mockup-2853847_1920-1-768x512.jpg 768w, https://rarathemesdemo.com/perfect-portfolio-pro/wp-content/uploads/sites/57/2018/05/poster-mockup-2853847_1920-1-1024x683.jpg 1024w"
-                          sizes="(max-width: 367px) 100vw, 367px"
-                        />
-                      </noscript>
                     </a>
                   </figure>
                   <h3 class="block-title">

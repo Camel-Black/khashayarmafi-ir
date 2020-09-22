@@ -1,5 +1,6 @@
 <template>
   <div class="site" id="page">
+    <Header></Header>
     <div id="content" class="site-content">
       <div id="primary" class="content-area">
         <main id="main" class="site-main">
@@ -339,6 +340,7 @@
         </main>
       </div>
     </div>
+    <Footer></Footer>
   </div>
 </template>
 
