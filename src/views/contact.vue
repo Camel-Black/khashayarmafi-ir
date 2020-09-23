@@ -1,7 +1,13 @@
 <template>
-  <div class="site" id="page">
+  <div class="site page.single-centered" id="page">
     <Header></Header>
-    <div id="content" class="site-content">
+    <div
+      id="content"
+      class="site-content"
+      style="    max-width: 770px;
+    margin-left: auto;
+    margin-right: auto;"
+    >
       <div id="primary" class="content-area">
         <main id="main" class="site-main">
           <div id="contact_details_content" class="contact-template-details-wrap">
@@ -97,9 +103,17 @@
               </div>
             </section>
             <section id="rtc_contact_social_links-5" class="widget widget_rtc_contact_social_links">
-              <h2 class="widget-title" itemprop="name">Contacts</h2>
+              <h2
+                class="widget-title"
+                itemprop="name"
+                style="    font-weight: 700;
+    font-size: 1.5em;
+    border-bottom: 1px solid #E6E6E6;
+    padding-bottom: 15px;
+    width: 100%;"
+              >Contacts</h2>
               <div class="rtc-contact-widget-wrap contact-info">
-                <ul class="contact-list">
+                <ul class="contact-list" style="border-bottom: 1px solid #E6E6E6;">
                   <li>
                     <svg
                       class="svg-inline--fa fa-phone fa-w-16"
@@ -117,8 +131,8 @@
                       />
                     </svg>
                     <!-- <i class="fa fa-phone"></i> -->
-                    <b>Phone</b>
-                    <a href="tel:5216660820">521 666 0820</a>
+                    <b>تلفن</b>
+                    <a href="tel:+989369370748">+989369370747</a>
                   </li>
                   <li>
                     <svg
@@ -137,8 +151,8 @@
                       />
                     </svg>
                     <!-- <i class="fa fa-envelope"></i> -->
-                    <b>Email</b>
-                    <a href="mailto:info@mailtomail.com">info@mailtomail.com</a>
+                    <b>ایمیل</b>
+                    <a href="mailto:khashayar.mafi75@gmail.com">khashayar.mafi75@gmail.com</a>
                   </li>
                   <li>
                     <svg
@@ -157,7 +171,7 @@
                       />
                     </svg>
                     <!-- <i class="fa fa-map-marker"></i> -->
-                    <b>Address</b>641 4th Avenue Street, New York, US
+                    <b>آدرس</b>قایمشهر
                   </li>
                 </ul>
                 <ul class="social-networks">
@@ -319,24 +333,6 @@
               </div>
             </section>
           </div>
-          <div id="contact_gmap_content" class="contact-template-gmap-wrap">
-            <section id="custom_html-7" class="widget_text widget widget_custom_html">
-              <div class="textwidget custom-html-widget">
-                <iframe
-                  loading="lazy"
-                  src="https://www.google.com/maps/embed/v1/place?q=Mazandaran%20Province%2C%20Qaemshahr%2C%20Kargar%20Boulevard%2Creshadat%2Cjanbazan%2C%20Iran&key=..."
-                  width="600"
-                  height="450"
-                  frameborder="0"
-                  style="border:0"
-                  allowfullscreen
-                  data-rocket-lazyload="fitvidscompatible"
-                  class="lazyloaded"
-                  data-ll-status="loaded"
-                ></iframe>
-              </div>
-            </section>
-          </div>
         </main>
       </div>
     </div>
@@ -360,5 +356,61 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+.widget a {
+    color: #1c1b1b;
+}
+ul.social-networks {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.contact-info ul.contact-list li {
+    margin-bottom: 15px;
+    padding-left: 35px;
+    font-size: 1em;
+    color: #353535;
+    position: relative;
+    padding-bottom: 15px;
+}
+.widget .social-networks li {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+    border-bottom: none;
+    margin-bottom: 5px;
+    line-height: 1;
+}
+.widget .social-networks li[data-v-2d05c2f6] {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+    border-bottom: none;
+    margin-bottom: 5px;
+    line-height: 1;
+    margin-right: 7%;
+}
+textarea{
+  height: 20vh;
+}
+.contact-list a , .contact-list b{
+    margin-right: 10%;
+    text-align: right;
+}
+.contact-list a{
+  right: 0;
+}
+.contact-list svg{
+  right:0%
+
+}
 </style>

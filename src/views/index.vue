@@ -498,7 +498,11 @@ export default {
     Footer,
     Header,
   },
-  methods: {},
+  methods: {
+    getposts(){
+      
+    }
+  },
 };
 </script>
 

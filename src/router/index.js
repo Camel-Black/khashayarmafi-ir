@@ -8,6 +8,8 @@ import NOTFOUND from '../views/NOTFOUND.vue'
 
 
 
+
+
 Vue.use(VueRouter)
 
 const routes = [

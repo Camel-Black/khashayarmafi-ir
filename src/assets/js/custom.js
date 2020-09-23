@@ -137,31 +137,31 @@ export default ($)=>{
 		});
 
 		// init Isotope
-		var $grid1 = $('.gallery-section:not(.style3) .gallery-wrap').imagesLoaded(function(){
-			$grid1.isotope({
-				itemSelector: '.gallery-img',
-			});	
-		});
+// 		var $grid1 = $('.gallery-section:not(.style3) .gallery-wrap').imagesLoaded(function(){
+// 			$grid1.isotope({
+// 				itemSelector: '.gallery-img',
+// 			});	
+// 		});
 
-		var $innergrid = $('body.page-template-portfolio:not(.gal-carousel) .site-main .gallery-wrap').imagesLoaded(function(){
-			$innergrid.isotope({
-				itemSelector: '.gallery-img',
-			});	
-		});
+// 		var $innergrid = $('body.page-template-portfolio:not(.gal-carousel) .site-main .gallery-wrap').imagesLoaded(function(){
+// 			$innergrid.isotope({
+// 				itemSelector: '.gallery-img',
+// 			});	
+// 		});
 
-	// filter items on button click
-	$('.filter-button-group').on('click', 'button', function() {
-		var filterValue = $(this).attr('data-filter');
-		$grid1.isotope({ filter: filterValue });
-		$innergrid.isotope({ filter: filterValue });
-	});
-// change is-checked class on buttons
-$('.button-group').each(function(i, buttonGroup) {
-	var $buttonGroup = $(buttonGroup);
-	$buttonGroup.on('click', 'button', function() {
-		$buttonGroup.find('.is-checked').removeClass('is-checked');
-		$(this).addClass('is-checked');
-	});
-});
+// 	// filter items on button click
+// 	$('.filter-button-group').on('click', 'button', function() {
+// 		var filterValue = $(this).attr('data-filter');
+// 		$grid1.isotope({ filter: filterValue });
+// 		$innergrid.isotope({ filter: filterValue });
+// 	});
+// // change is-checked class on buttons
+// $('.button-group').each(function(i, buttonGroup) {
+// 	var $buttonGroup = $(buttonGroup);
+// 	$buttonGroup.on('click', 'button', function() {
+// 		$buttonGroup.find('.is-checked').removeClass('is-checked');
+// 		$(this).addClass('is-checked');
+// 	});
+// });
 
 }//document close
